@@ -6,7 +6,7 @@ export default function App() {
   
   const dec = () => {
     if(counter < 10){
-      setcounter(prev => counter + 1)
+      setcounter(counter + 1)
     } else {
       setcounter( 0)
     }
@@ -14,14 +14,14 @@ export default function App() {
 
   const inc = () => {
     if(counter > -10){
-      setcounter(prev => counter - 1)
+      setcounter( counter - 1)
     } else {
       setcounter(0)
     }
   }
 
   const rest = () => {
-    setcounter(prev => 0)
+    setcounter( 0)
   }
 
   const rand = () => {
